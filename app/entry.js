@@ -12,9 +12,11 @@ import NotFound from './views/NotFound';
 import Projects from './views/Projects';
 import Resume from './views/Resume';
 import Stats from './views/Stats';
+import Cheatsheets from './views/Cheatsheets';
 
 // All of our CSS
 import './static/css/main.scss';
+
 
 ReactDOM.render(
   <Router basename={BASE_PATH}>
@@ -24,6 +26,7 @@ ReactDOM.render(
       <Route path="/projects" component={Projects} />
       <Route path="/stats" component={Stats} />
       <Route path="/contact" component={Contact} />
+      <Route path="/cheatsheets" component={Cheatsheets} />
       <Route path="/resume" component={Resume} />
       {/* Only useful in development mode */}
       <Route component={NotFound} status={404} />

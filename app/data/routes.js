@@ -1,7 +1,7 @@
 const data = [
   {
     path: '/',
-    label: 'Michael D\'Angelo',
+    label: 'Phoebe Chan',
     index: true,
   },
   {
@@ -17,9 +17,13 @@ const data = [
     label: 'Projects',
   },
   {
-    path: '/stats',
-    label: 'Stats',
+    path: '/cheatsheets',
+    label: 'Cheatsheets',
   },
+  // {
+  //   path: '/stats',
+  //   label: 'Stats',
+  // },
   {
     path: '/contact',
     label: 'Contact',

@@ -25,7 +25,7 @@ jobs:
         GA_ID: UA-68649021-1
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: | 
-          git config user.name mldangelo
-          git config user.email michael.l.dangelo@gmail.com
-          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/mldangelo/personal-site.git
+          git config user.name febee99
+          git config user.email febee99@gmail.com
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/febee99/personal-site.git
           npm run deploy

@@ -1,15 +1,16 @@
 const degrees = [
-  {
-    school: 'Stanford University',
-    degree: 'M.S. Computational and Mathematical Engineering',
-    link: 'https://stanford.edu',
-    year: 2016,
-  }, {
-    school: 'University at Buffalo',
-    degree: 'B.S. Electrical Engineering, Computer Engineering',
-    link: 'https://buffalo.edu',
-    year: 2012,
+ {
+    school: 'National University of Singapore',
+    degree: 'B.S. School of Computing, Computer Science',
+    link: 'https://www.comp.nus.edu.sg/programmes/ug/cs/',
+    year: 2018,
   },
+  {
+    school: 'River Valley High School',
+    degree: '6-Year Integrated Programme',
+    link: 'https://rivervalleyhigh.moe.edu.sg/rvip/integrated-programme',
+    year: 2012,
+  }
 ];
 
 export default degrees;
