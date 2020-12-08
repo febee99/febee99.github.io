@@ -27,5 +27,5 @@ jobs:
       run: | 
           git config user.name febee99
           git config user.email febee99@gmail.com
-          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/febee99/personal-site.git
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/febee99/febee99.github.io.git
           npm run deploy
