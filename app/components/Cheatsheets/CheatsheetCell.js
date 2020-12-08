@@ -1,11 +1,5 @@
-import React, {useState} from 'react';
-import ReactPlayer from "react-player"
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import dayjs from 'dayjs';
-import url from 'url';
-import { Document, Page } from 'react-pdf';
-
-
 
 function CheatsheetCell({ cheatsheets }) {
   const [numPages, setNumPages] = useState(null);
@@ -17,10 +11,8 @@ function CheatsheetCell({ cheatsheets }) {
   <div className="cell-container">
     <article className="mini-post">
       <header>
-        <h3><a href={cheatsheets.link}>{cheatsheets.title}</a></h3>
-        
+        <h3><a href={cheatsheets.link}>{cheatsheets.title}</a></h3>  
       </header>
-     
     </article>
   </div>
   );
