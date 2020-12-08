@@ -19,8 +19,7 @@ const Nav = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Phoebe. 
-        I am a Year 3 Computer Science student in <a href="https://www.comp.nus.edu.sg/programmes/ug/cs/"></a> National University of Singapore.
+      <p>Hi, I&apos;m Phoebe. I am a Year 3 Computer Science student in<a href="https://www.comp.nus.edu.sg/programmes/ug/cs/">National University of Singapore</a>.
       </p>
       <ul className="actions">
         <li>

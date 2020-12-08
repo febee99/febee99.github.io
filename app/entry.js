@@ -17,7 +17,6 @@ import Cheatsheets from './views/Cheatsheets';
 // All of our CSS
 import './static/css/main.scss';
 
-
 ReactDOM.render(
   <Router basename={BASE_PATH}>
     <Switch>
